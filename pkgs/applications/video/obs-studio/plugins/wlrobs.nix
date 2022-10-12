@@ -5,12 +5,12 @@
 
 stdenv.mkDerivation {
   pname = "wlrobs";
-  version = "unstable-2022-05-15";
+  version = "unstable-2022-10-06";
 
   src = fetchhg {
     url = "https://hg.sr.ht/~scoopta/wlrobs";
-    rev = "3eb154e5fe639acb1b6be7041f5d5a62f7e723dc";
-    sha256 = "sha256-5b8fU31UjBQ2bEIKWfwRRZc/sMOxxmwrbWDOvO3ubQE=";
+    rev = "78be323b25e1365f5c8f9dcba6938063ca10f71f";
+    sha256 = "sha256-/VemJkk695BdSDsODmYIPdhPwggzIhBi/0m6P+AYfx0=";
   };
 
   nativeBuildInputs = [ meson pkg-config ninja ];
