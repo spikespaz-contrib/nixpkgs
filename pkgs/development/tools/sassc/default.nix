@@ -25,5 +25,6 @@ stdenv.mkDerivation rec {
     license = licenses.mit;
     maintainers = with maintainers; [ codyopel pjones ];
     platforms = platforms.unix;
+    mainProgram = "sassc";
   };
 }
