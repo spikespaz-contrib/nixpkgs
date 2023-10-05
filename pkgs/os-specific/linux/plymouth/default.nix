@@ -116,5 +116,6 @@ stdenv.mkDerivation (finalAttrs: {
     license = licenses.gpl2Plus;
     maintainers = [ maintainers.goibhniu ] ++ teams.gnome.members;
     platforms = platforms.linux;
+    mainProgram = "plymouth";
   };
 })
